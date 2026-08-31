@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-iransans), ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  font-family: var(--font-iransans);
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
